@@ -1,3 +1,3 @@
-var msg = require("./greeting/index.js");
+const message = require("../greeting/index");
 
-console.log(msg);
+module.exports = `Hello Rahul! ${message}`;
